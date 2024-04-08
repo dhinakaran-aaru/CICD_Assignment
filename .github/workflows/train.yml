@@ -22,7 +22,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: dhinnakarana/assignment:latest
+          tags: dhinakaranaaru/ci_cd_assignment:latest
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
