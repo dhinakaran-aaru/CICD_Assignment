@@ -14,10 +14,10 @@ jobs:
     
     steps:
       - name: Pull Docker image
-        run: docker pull yourdockerhubusername/yourimagename:latest
+        run: docker pull dhinakaranaaru/ci_cd_assignment:latest
       
       - name: Run Docker container
-        run: docker run yourdockerhubusername/yourimagename:latest
+        run: docker run dhinakaranaaru/ci_cd_assignment:latest
       
       # You'll need to replace this with your actual test script that checks the score
       - name: Run Test Script
